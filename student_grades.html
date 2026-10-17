@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Grades</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+  <h1>List of Enrolled Students</h1>
+
+  <table>
+    <tr>
+      <th>Student Name</th>
+      <th>Grade</th>
+    </tr>
+
+    <tr>
+      <td>Anna Reyes</td>
+      <td>92</td>
+    </tr>
+
+    <tr>
+      <td>Ben Santos</td>
+      <td>85</td>
+    </tr>
+
+    <tr>
+      <td>Carla Cruz</td>
+      <td>78</td>
+    </tr>
+
+    <tr>
+      <td>David Lim</td>
+      <td>97</td>
+    </tr>
+
+    <tr>
+      <td>Ella Ramos</td>
+      <td>74</td>
+    </tr>
+  </table>
+
+  <!-- The button calls the function found in the external JS file -->
+  <button onclick="showGradeEquivalent()">Show Grade Equivalent</button>
+
+  <!-- The result table will be shown here -->
+  <div id="result"></div>
+
+  <!-- External JavaScript (placed at the bottom so the page loads first) -->
+  <script src="JS/student_grades.js"></script>
+</body>
+</html>
